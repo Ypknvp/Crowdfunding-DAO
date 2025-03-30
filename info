@@ -1,0 +1,16 @@
+
+
+ DAO Crowdfunding Platform:
+
+ Donate ETH via MetaMask. Create Proposals to request funding. Vote on Proposals using Web3. Withdraw funds securely after approval. Admin controls (pause/resume contract).
+ Reentrancy Guard – Prevents reentrancy attacks on withdrawFunds().More Flexible Voting – Uses weighted votes based on donation amount.Optimized Storage – Uses structs more efficiently. Event Logs – Added events for better tracking.
+ Fund Limit Check – Ensures only sufficient funds are withdrawn. Admin Control – Admin can pause/unpause the contract in emergencies.
+
+
+ Streamlit Web App
+Now, let’s build a fully functional Web3 front-end using Streamlit + Web3.py.  
+Replace YOUR_INFURA_PROJECT_ID  in the code.
+pip install streamlit web3
+streamlit run app.py
+
+
